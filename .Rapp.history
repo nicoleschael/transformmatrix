@@ -1,0 +1,22 @@
+usethis::use_git()                 # inizializza il repository locale
+devtools::document()
+devtools::document("/Users/nicole/Desktop/transformmatrix")   # 3d#
+devtools::check("/Users/nicole/Desktop/transformmatrix")      # 3f#
+devtools::install("/Users/nicole/Desktop/transformmatrix")    # 3e
+usethis::use_git("/Users/nicole/Desktop/transformmatrix/")                 # inizializza il repository locale
+cd "/Users/nicole/Desktop/transformmatrix"#
+git init#
+git add .#
+git commit -m "Initial commit: pacchetto transformmatrix"#
+git branch -M main#
+git remote add origin https://github.com/nicoleschael/transformmatrix.git#
+git push -u origin main
+getwd()
+setwd("/Users/nicole/Desktop/transformmatrix/")
+cd "/Users/nicole/Desktop/transformmatrix"#
+git init#
+git add .#
+git commit -m "Initial commit: pacchetto transformmatrix"#
+git branch -M main#
+git remote add origin https://github.com/nicoleschael/transformmatrix.git#
+git push -u origin main
