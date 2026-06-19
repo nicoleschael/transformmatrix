@@ -1,0 +1,19 @@
+Package: transformmatrix
+Type: Package
+Title: Convert 10x Sparse Matrices to Dense Format
+Version: 0.1.0
+Authors@R:
+    person("Nicole", "Schael", email = "nicole.schael@edu.unito.it",
+           role = c("aut", "cre"))
+Description: Tools to read a 10x Genomics sparse matrix together with its
+    barcodes and features, assign them to the columns and rows, convert the
+    matrix to a dense representation and save it to disk. A front-end function
+    is also provided to run the conversion inside a Docker container through a
+    mounted volume.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    Matrix,
+    data.table,
+    utils
+RoxygenNote: 7.3.3
